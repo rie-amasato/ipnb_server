@@ -9,5 +9,3 @@ RUN apt-get -y update && \
     pip install --upgrade pip && \
     pip install --upgrade setuptools && \
     pip install -r requirements.txt
-
-RUN jupyter notebook --ip=* --notebookApp.token=''
