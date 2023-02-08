@@ -7,4 +7,7 @@ ports:
 - port: 8888
   onOpen: open-browser
 tasks:
-  - command: jupyter notebook --ip=* --notebookApp.token=''
+  - name: echo
+    command: "echo 'initiarizing.....'"
+  - name: open_upyter
+    command: "jupyter notebook --ip=* --NotebookApp.token=''"
