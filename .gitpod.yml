@@ -7,5 +7,6 @@ tasks:
     before: |
       pip install -r requirements.txt
       pip uninstall -y notebook
+      pip uninstall -y notebook
       pip install notebook==6.0.0
     command: "jupyter notebook --ip=* --NotebookApp.token=''"
